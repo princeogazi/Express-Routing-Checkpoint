@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    background-color: aqua;
+    height: 30px;
+    padding: 25px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-left: 2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: .25em 0;
+}
